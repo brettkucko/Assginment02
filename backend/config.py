@@ -7,5 +7,5 @@ DB_HOST = os.environ.get("DB_HOST", "cluster.aqxqsoh.mongodb.net")
 DB_NAME = os.environ.get("DB_NAME", "MobileApp")
 
 MONGODB_URI = (
-    f"mongodb+srv://{quote_plus(DB_USER)}:{quote_plus(DB_PASSWORD)}@{DB_HOST}/"
+    f"mong1odb+srv://{quote_plus(DB_USER)}:{quote_plus(DB_PASSWORD)}@{DB_HOST}/"
 )
